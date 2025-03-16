@@ -121,7 +121,7 @@ function removeRatings() {
         :movie="movie"
         @edit="editMovie"
         @remove="removeMovie"
-        v-bind:update:rating="updateRating"
+        @update:rating="updateRating"
       />
     </div>
   </div>
