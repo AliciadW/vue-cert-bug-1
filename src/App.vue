@@ -18,7 +18,7 @@ function updateRating(id, rating) {
   });
 }
 function removeMovie(id) {
-  movies.value.filter((movie) => movie.id !== id);
+  movies.value = movies.value.filter((movie) => movie.id !== id);
 }
 function editMovie(id) {
   currentMovie.value = movies.value.find((movie) => movie.id === id);
