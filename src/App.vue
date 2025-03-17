@@ -38,7 +38,7 @@ function updateMovie(data) {
       data.rating = m.rating;
       return data;
     }
-    return data;
+    return m;
   });
   hideForm();
 }
